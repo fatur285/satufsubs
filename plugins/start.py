@@ -78,7 +78,7 @@ async def start_command(client: Client, message: Message):
         try:
             messages = await get_messages(client, ids)
         except BaseException:
-            await message.reply_text("<b>Telah Terjadi Error </b>🥺")
+            await message.reply_text("<b>Telah Terjadi Error </b>")
             return
         await temp_msg.delete()
 
@@ -113,13 +113,13 @@ async def start_command(client: Client, message: Message):
                 pass
     else:
         buttons = [
-            [InlineKeyboardButton("• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about")],
+            [InlineKeyboardButton("ᴀʙᴏᴜᴛ ᴍᴇ​", callback_data="about")],
             [
-                InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=client.invitelink),
-                InlineKeyboardButton("𝗚𝗥𝗢𝗨𝗣", url=client.invitelink2),
+                InlineKeyboardButton("ᴊᴏɪɴ​ 1", url=client.invitelink),
+                InlineKeyboardButton("ᴊᴏɪɴ​ 2", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close"),
             ],
         ]
         await message.reply_text(
@@ -144,15 +144,15 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=client.invitelink),
-            InlineKeyboardButton("𝗚𝗥𝗢𝗨𝗣", url=client.invitelink2),
+            InlineKeyboardButton("ᴊᴏɪɴ​ 1", url=client.invitelink),
+            InlineKeyboardButton("ᴊᴏɪɴ​ 2", url=client.invitelink2),
         ],
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text="ᴄᴏʙᴀ ʟᴀɢɪ",
+                    text="ɢᴀss ʙᴏᴋᴇᴘ​",
                     url=f"https://t.me/{client.username}?start={message.command[1]}",
                 )
             ]
@@ -197,7 +197,7 @@ async def send_text(client: Bot, message: Message):
         unsuccessful = 0
 
         pls_wait = await message.reply(
-            "<code>Broadcasting Message Tunggu Sebentar...</code>"
+            "<code>Broadcasting Message Please Wait...</code>"
         )
         for row in query:
             chat_id = int(row[0])
@@ -218,16 +218,16 @@ async def send_text(client: Bot, message: Message):
 
         status = f"""<b><u>Berhasil Broadcast</u>
 Jumlah Pengguna: <code>{total}</code>
+Pengguna blokir: <code>{blocked}</code>
+Akun Terhapus: <code>{deleted}</code>
 Berhasil: <code>{successful}</code>
-Gagal: <code>{unsuccessful}</code>
-Pengguna diblokir: <code>{blocked}</code>
-Akun Terhapus: <code>{deleted}</code></b>"""
+Gagal: <code>{unsuccessful}</code></b>"""
 
         return await pls_wait.edit(status)
 
     else:
         msg = await message.reply(
-            "<code>Gunakan Perintah ini Harus Sambil Reply ke pesan telegram yang ingin di Broadcast.</code>"
+            "<code>Reply sebuah pesan untuk memulai Broadcast.</code>"
         )
         await asyncio.sleep(8)
         await msg.delete()
