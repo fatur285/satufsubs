@@ -22,7 +22,7 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 ##
 ### Installation
 #### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://risman.vercel.app/file-deploy.html)</br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/DIORrios285/DiorFilesharing)</br>
 
 **Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
 <a href="https://youtu.be/O2tieQgzYZg">
@@ -31,8 +31,8 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/mrismanaziz/File-Sharing-Man
-cd File-Sharing-Man
+git clone https://github.com/DIORrios285/DiorFilesharing
+cd DiorFilesharing
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
 python3 main.py
@@ -89,7 +89,7 @@ python3 main.py
 
 
 ## Support   
-Bergabunglah di [Group Telegram ](https://www.telegram.dog/SharingUserbot) Untuk Dukungan/Bantuan Dan Join [Channel](https://www.telegram.dog/Lunatic0de) untu info Update bot.   
+Bergabunglah di [Group Telegram ](https://www.telegram.dog/fandasupport) Untuk Dukungan/Bantuan Dan Join [Channel](https://www.telegram.dog/fandaproject) untu info Update bot.   
    
 Laporkan Bug, Berikan Permintaan Fitur Di sana.. 
 
