@@ -13,10 +13,10 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text=f"<b>Tentang Bot ini:\n\n • Owner: @{OWNER}\n • Channel: @{CHANNEL}\n • Group: @{GROUP}\n • Source Code: <a href='https://github.com/mrismanaziz/File-Sharing-Man'>Klik Disini</a></b>\n",
+            text=f"<b>ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ​:\n\n👑 ᴏᴡɴᴇʀ​: <a href='https://t.me/{OWNER}'>Owner</a>\n📣 ᴄʜᴀɴɴᴇʟ​: <a href='https://t.me/{CHANNEL}'>Channel</a>\n👥 ɢʀᴏᴜᴘ​: <href='https://t.me/{GROUP}'>Grup</a></b>\n",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •", callback_data="close")]]
+                [[InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]]
             ),
         )
     elif data == "close":
