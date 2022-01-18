@@ -44,7 +44,7 @@ async def channel_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Bagikan tautan", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 Bagikan Tautan", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
@@ -76,7 +76,7 @@ async def new_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Bagikan tautan", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 Bagikan Tautan", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
