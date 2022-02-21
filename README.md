@@ -1,24 +1,3 @@
-# File-Sharing-Man
-
-Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link Khusus.
-Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
-
-##
-
-**Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [@SharingUserbot](https://www.telegram.dog/SharingUserbot)**
-
-### Features
-- Sepenuhnya dapat dicustom.
-- Pesan sambutan & Forcesub yang dapat dicustom.
-- Lebih dari satu Posting dalam Satu Link (batch).
-- Dapat di-deploy di heroku secara langsung.
-
-### Setup
-
-- Tambahkan bot ke Channel Database dengan semua izin admin
-- Tambahkan bot ke Channel ForceSub tambahkan bot sebagai ADMIN
-- Tambahkan bot ke Group ForceSub tambahkan bot sebagai ADMIN
-
 ##
 ### Installation
 #### Deploy on Heroku
@@ -54,19 +33,6 @@ python3 main.py
 /ping - untuk mengecek bot
 ```
 
-### Variables
-
-* `API_HASH` Dapatkan API HASH di web my.telegram.org.
-* `API_ID` Dapatkan APP ID di web my.telegram.org
-* `TG_BOT_TOKEN` Dapatkan dari t.me/BotFather
-* `OWNER` Masukan Username Telegram untuk Owner BOT
-* `OWNER_ID` Masukan User ID Telegram untuk Owner BOT
-* `CHANNEL_ID` Masukan ID Channel Untuk [Channel Database] contoh:- -100xxxxxxxx
-* `ADMINS` Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]
-* `START_MESSAGE` Opsional: Pesan /start memulai awalan ke bot, Gunakan <a href='https://github.com/mrismanaziz/File-Sharing-Man/blob/main/README.md#start_message'>format</a> parsemode HTML 
-* `FORCE_SUB_MESSAGE` Opsional: Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML
-* `FORCE_SUB_CHANNEL` Masukan ID dari Channel Untuk Wajib Subscribenya
-* `FORCE_SUB_GROUP` Masukan ID dari Group Untuk Wajib Subscribenya
 
 ### Extra Variables
 
