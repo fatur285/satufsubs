@@ -1,7 +1,7 @@
 ##
 ### Installation
 #### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/DIORrios285/satufsubs)</br>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/DIORrios285/satufsubs"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="215"></a><br>
 
 **Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
 <a href="https://youtu.be/O2tieQgzYZg">
