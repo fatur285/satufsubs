@@ -1,7 +1,7 @@
 ##
 ### Installation
 #### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/DIORrios285/DiorFilesharing)</br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/DIORrios285/satufsubs)</br>
 
 **Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
 <a href="https://youtu.be/O2tieQgzYZg">
